@@ -1,18 +1,6 @@
-import React, { Component } from 'react';
-import {View, Text} from 'react-native'
- 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() { 
-    return (
-      <View>
-        <Text>This is my first application</Text>
-      </View>
-    );
-  }
+import React from 'react';
+import {View} from 'react-native';
+
+export default function App() {
+  return <View>hi</View>;
 }
- 
-export default App;
